@@ -43,7 +43,7 @@ async def notice(event):
 async def source(event):
     await event.edit(source_text,
                     buttons=[[
-                         Button.url("SOURCE", url="https://github.com/nimmni/VIDEOconvertor-personal/"),
+                         Button.url("SOURCE", url="https://github.com/"),
                          Button.inline("BACK", data="menu")]])
                                  
 @Drone.on(events.callbackquery.CallbackQuery(data="help"))
